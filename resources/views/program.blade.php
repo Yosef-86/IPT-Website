@@ -8,10 +8,10 @@
     </div>
 </div>
 <div class="">
-    <div class="container">
-        <h1 class="text-center">TESDA COURSES</h1>
+    <div class="container mt-5">
         <div class="row justify-content-between align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-5">
+            <h1 class="text-left text-success fw-lighter mt-1">TESDA COURSES</h1>
                 <ul class="list-unstyled">
                     <li>Caregiving</li>
                     <li>Bread and Pastry Production</li>
@@ -26,22 +26,21 @@
                 </ul>
             </div>
             
-            <div class="col-md-6 d-flex justify-content-center">
-                <img src="{{ asset('assets/history.jpg') }}" class="w-50" alt="Background Image">
+            <div class="col-md-7 d-flex justify-content-right">
+                <img src="{{ asset('assets/history.jpg') }}" class="w-50 rounded-5" alt="Background Image">
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <h1 class="text-center">Hospitality management Department</h1>
-        <div class="row justify-content-between align-items-start">
-            
-            <div class="col-md-6 d-flex ">
-                <img src="{{ asset('assets/hospitality.jpg') }}" class="w-50" alt="Background Image">
+    <div class="container mt-5 ">
+        <div class="row">
+            <div class="col-md-7 d-flex align-items-center justify-content-center">
+                <img src="{{ asset('assets/hospitality.jpg') }}" class="w-50 rounded-5" alt="Background Image">
             </div>
 
-            <div class="col-md-6">
-                <ul class="list-unstyled">
+            <div class="col-md-5 pe-5">
+            <h1 class="text-end text-success fw-lighter">Hospitality Management Department</h1>
+                <ul class="list-unstyled text-end mt-4 ">
                     <li>Bachelor of Science in Hotel and Restaurant Technology (BSHRT)</li>
                     <li>Bachelor of Science in Hospitality Management (BSHM)</li>
                     <li>Hotel and Restaurant Service</li>
@@ -53,31 +52,32 @@
     </div>
 
 
-    <div class="container">
-        <h1 class="text-center">Computer Studies</h1>
+    <div class="container mt-5">
         <div class="row justify-content-between align-items-start">
-            <div class="col-md-6">
+            <div class="col-md-5">
+            <h1 class="text-left text-success fw-lighter mt-1">Computer Studies</h1>
                 <ul class="list-unstyled">
                     <li>Bachelor Of Science in Computer Science(BSCS)</li>
                     <li>Bachelor Of Science in Information Technology(BSIT)</li>
                     <li>Associate in Computer Technology(ACT)</li>
                 </ul>
             </div>
-            <div class="col-md-6 d-flex justify-content-center">
-            <img src="{{ asset('assets/computer.jpg') }}" class="w-50" alt="Background Image">
+            <div class="col-md-7 d-flex justify-content-right">
+            <img src="{{ asset('assets/computer.jpg') }}" class="w-50 rounded-5" alt="Background Image">
         </div>
             
         </div>
     </div>
 
-    <div class="container">
-        <h1 class="text-center">Engineering Department</h1>
+    <div class="container mt-5">
+        
         <div class="row justify-content-between align-items-start">
-        <div class="col-md-6 d-flex ">
-            <img src="{{ asset('assets/2.png') }}" class="w-50" alt="Background Image">
+        <div class="col-md-7 d-flex align-items-center justify-content-center">
+            <img src="{{ asset('assets/2.png') }}" class="w-50 rounded-5" alt="Background Image">
         </div>
-            <div class="col-md-6">
-                <ul class="list-unstyled">
+            <div class="col-md-5">
+            <h1 class="text-end text-success fw-lighter">Engineering Department</h1>
+                <ul class="list-unstyled text-end mt-4">
                     <li>Bachelor Of Science in Computer Engineering(BSCOE)</li>
                 </ul>
             </div>
