@@ -16,15 +16,15 @@
                     <form class="row g-3">
                         <div class="col-md-4">
                             <label for="name" class="form-label">First Name</label>
-                            <input type="text" class="form-control" id="fname">
+                            <input type="text" class="form-control" id="fname" placeholder="Enter First Name">
                         </div>
                         <div class="col-md-4">
                             <label for="lname" class="form-label">Middle Name</label>
-                            <input type="text" class="form-control" id="mname">
+                            <input type="text" class="form-control" id="mname" placeholder="Enter Middle Name">
                         </div>
                         <div class="col-md-4">
                             <label for="text" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" id="lname">
+                            <input type="text" class="form-control" id="lname" placeholder="Enter Last Name">
                         </div>
 
                         <div class="col-md-4 ">
@@ -68,13 +68,13 @@
                         </div>
                         <div class="col-md-4">
                             <label for="guardian" class="form-label">Guardian's First Name</label>
-                            <input type="text" class="form-control" id="guardian">
+                            <input type="text" class="form-control" id="guardian" placeholder="Enter Guardian First Name">
                         </div>
                         
 
                         <div class="col-md-4">
                             <label for="guardian" class="form-label">Guardian's Last Name</label>
-                            <input type="text" class="form-control" id="guardian">
+                            <input type="text" class="form-control" id="guardian" placeholder="Enter Guardian Last Name">
                         </div>
 
                         <div class="col-md-4">
@@ -83,14 +83,14 @@
                         </div>
                         <div class="col-md-4">
                             <label for="guardian" class="form-label">Phone Number</label>
-                            <input type="tel" class="form-control" id="number">
+                            <input type="tel" class="form-control" id="number" placeholder="Enter Phone Number">
                         </div>
                         
 
                         
                         <div class="col-md-4">
                             <label for="guardian" class="form-label">Education Qualification</label>
-                            <input type="text" class="form-control" id="education">
+                            <input type="text" class="form-control" id="education" placeholder="Enter Qualification">
                         </div>
 
                         
@@ -111,15 +111,15 @@
                     <form class="row g-3">
                         <div class="col-md-4">
                             <label for="name" class="form-label">First Name</label>
-                            <input type="text" class="form-control" id="fname">
+                            <input type="text" class="form-control" id="fname" placeholder="Enter First Name">
                         </div>
                         <div class="col-md-4">
                             <label for="lname" class="form-label">Middle Name</label>
-                            <input type="text" class="form-control" id="mname">
+                            <input type="text" class="form-control" id="mname" placeholder="Enter Middle Name">
                         </div>
                         <div class="col-md-4">
                             <label for="text" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" id="lname">
+                            <input type="text" class="form-control" id="lname" placeholder="Enter Last Name">
                         </div>
 
                         <div class="col-md-4 ">
@@ -163,13 +163,13 @@
                         </div>
                         <div class="col-md-4">
                             <label for="guardian" class="form-label">Guardian's First Name</label>
-                            <input type="text" class="form-control" id="guardian">
+                            <input type="text" class="form-control" id="guardian" placeholder="Enter Guardian First Name">
                         </div>
                         
 
                         <div class="col-md-4">
                             <label for="guardian" class="form-label">Guardian's Last Name</label>
-                            <input type="text" class="form-control" id="guardian">
+                            <input type="text" class="form-control" id="guardian" placeholder="Enter Guardian Last Name">
                         </div>
 
                         <div class="col-md-4">
@@ -178,17 +178,13 @@
                         </div>
                         <div class="col-md-4">
                             <label for="guardian" class="form-label">Phone Number</label>
-                            <input type="tel" class="form-control" id="number">
+                            <input type="tel" class="form-control" id="number" placeholder="Enter Phone Number">
                         </div>
-                        
-
-                        
+        
                         <div class="col-md-4">
                             <label for="guardian" class="form-label">Education Qualification</label>
-                            <input type="text" class="form-control" id="education">
+                            <input type="text" class="form-control" id="education" placeholder="Enter Qualification">
                         </div>
-
-                        
 
                         <div class="col-12">
                             <label for="inputAddress2" class="form-label">Message</label>
@@ -202,4 +198,4 @@
 
             </div>
 <br>
-</x-layout>
+</x-layout> 
