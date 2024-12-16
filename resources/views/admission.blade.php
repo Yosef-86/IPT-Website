@@ -1,15 +1,16 @@
 <x-layout>
+    <br>
 <div class="modal-body container bg-success p-3 ">
-                <ul class="nav nav-tabs" id="myTab" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active " id="login-tab" data-bs-toggle="tab" href="#login" role="tab" aria-controls="login" aria-selected="true">New Student</a>
+                <ul class="nav  " id="myTab" role="tablist">
+                    <li class="nav-item ">
+                        <a class="nav-link active " id="login-tab" data-bs-toggle="tab" href="#login" role="tab" aria-controls="login" aria-selected="true"><span class="text-white btn btn-primary">New Student </span> </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " id="signup-tab" data-bs-toggle="tab" href="#signup" role="tab" aria-controls="signup" aria-selected="false">Old Student</a>
+                        <a class="nav-link " id="signup-tab" data-bs-toggle="tab" href="#signup" role="tab" aria-controls="signup" aria-selected="false"><span class="text-white btn btn-primary">Old Student
                     </li>
                 </ul>
-
-                <div class="tab-content" id="myTabContent">
+                    <hr>
+                <div class="tab-content text-white" id="myTabContent">
                     <!-- for new student -->
                     <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
                     <form class="row g-3">
@@ -102,7 +103,7 @@
                         
 
                     </form>
-    <a href="" class="btn btn-primary mt-3">Sign Up </a>
+                         <a href="" class="btn btn-primary mt-3">Sign Up </a>
     </div>
                    
                         <!-- for old student -->
@@ -193,14 +194,12 @@
                             <label for="inputAddress2" class="form-label">Message</label>
                             <textarea name="" class="form-control" id="" rows="4" cols="50"></textarea>
                         </div>
-
-                        
-
                     </form>
+                    <a href="" class="btn btn-primary mt-3">Sign Up </a>
                     </div>
                 
             </div>
 
             </div>
-
+<br>
 </x-layout>
