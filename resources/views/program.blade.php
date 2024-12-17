@@ -2,14 +2,17 @@
 <div class="min-vw-100 min-vh-100 d-flex justify-content-center align-items-center position-relative">
     <div class="background-blur" style="background-image: url('assets/bg.jpg'); background-position: center; background-size: cover; opacity: 0.7; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;"></div>
     <div class="text-center" style="position: relative; z-index: 1;">
-        <h1>GENESIS EXOUSIA</h1>
+        <h1 class="fw-lighter">GENESIS EXOUSIA</h1>
+        <br>
         <a href="#" class="btn btn-success btn-lg">Enroll Now</a>
-        <a href="#" class="btn btn-secondary">Read More</a>
+        <a href="#" class="btn btn-secondary btn-lg">Read More</a>
     </div>
 </div>
+<br>
+<br>
 <div class="">
     <div class="container mt-5">
-        <div class="row justify-content-between align-items-start">
+        <div class="mx-auto row justify-content-center">
             <div class="col-md-5">
             <h1 class="text-left text-success fw-lighter mt-1">TESDA COURSES</h1>
                 <ul class="list-unstyled">
@@ -26,19 +29,19 @@
                 </ul>
             </div>
             
-            <div class="col-md-7 d-flex justify-content-right">
-                <img src="{{ asset('assets/history.jpg') }}" class="w-50 rounded-5" alt="Background Image">
+            <div class="mx-auto col-md-7 d-flex">
+                <img src="{{ asset('assets/history.jpg') }}" class="w-75 rounded-5" alt="Background Image">
             </div>
         </div>
     </div>
 
     <div class="container mt-5 ">
-        <div class="row">
+        <div class="mx-auto row justify-content-center">
             <div class="col-md-7 d-flex align-items-center justify-content-center">
-                <img src="{{ asset('assets/hospitality.jpg') }}" class="w-50 rounded-5" alt="Background Image">
+                <img src="{{ asset('assets/hospitality.jpg') }}" class="w-75 rounded-5" alt="Background Image">
             </div>
 
-            <div class="col-md-5 pe-5">
+            <div class="mx-auto col-md-5 pe-5">
             <h1 class="text-end text-success fw-lighter">Hospitality Management Department</h1>
                 <ul class="list-unstyled text-end mt-4 ">
                     <li>Bachelor of Science in Hotel and Restaurant Technology (BSHRT)</li>
@@ -53,7 +56,7 @@
 
 
     <div class="container mt-5">
-        <div class="row justify-content-between align-items-start">
+        <div class="row justify-content-center">
             <div class="col-md-5">
             <h1 class="text-left text-success fw-lighter mt-1">Computer Studies</h1>
                 <ul class="list-unstyled">
@@ -63,7 +66,7 @@
                 </ul>
             </div>
             <div class="col-md-7 d-flex justify-content-right">
-            <img src="{{ asset('assets/computer.jpg') }}" class="w-50 rounded-5" alt="Background Image">
+            <img src="{{ asset('assets/computer.jpg') }}" class="w-75 rounded-5" alt="Background Image">
         </div>
             
         </div>
@@ -71,9 +74,9 @@
 
     <div class="container mt-5">
         
-        <div class="row justify-content-between align-items-start">
+        <div class="row justify-content-center">
         <div class="col-md-7 d-flex align-items-center justify-content-center">
-            <img src="{{ asset('assets/2.png') }}" class="w-50 rounded-5" alt="Background Image">
+            <img src="{{ asset('assets/2.png') }}" class="w-75 rounded-5" alt="Background Image">
         </div>
             <div class="col-md-5">
             <h1 class="text-end text-success fw-lighter">Engineering Department</h1>
@@ -86,6 +89,8 @@
         </div>
     </div>
 </div>
+<br>
+<hr>
 <!-- cards -->
 <div class="">
     <div class="card mb-3 container mt-5 h-100" style="max-width: 800px;">
@@ -144,21 +149,28 @@
   </div>
 </div>
 </div>
+<br>
+<hr>
 
 <div class="min-vw-100 min-vh-100 d-flex justify-content-center align-items-center" style="background-image: url('assets/ep1.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center;">
 </div>
 
-
+<br>
+<hr>
+<br>
 </div>
 <div class="min-vw-100 min-vh-100 d-flex justify-content-center align-items-center" style="background-image: url('assets/epcst.jpg'); background-size: contain; background-repeat: no-repeat; background-position: center;">
 </div>
 
-
+<br>
+<hr>
+<br>
     
 </div>
 
 <div class="container">
-    <h1 class="text-center"> BE A PART OF THE CHAMPIONS</h1>
+    <h1 class="text-center text-success"> BE A PART OF THE CHAMPIONS</h1>
+    <br>
 
     <form class="row g-3">
         <div class="col-md-6">
@@ -208,8 +220,8 @@
             <textarea name="" class="form-control" id="" rows="4" cols="50"></textarea>
         </div>
         
-        <div class="col-12 mb-3">
-            <button type="submit" class="btn btn-primary">Sign in</button>
+        <div class="col-12 mb-3 d-flex justify-content-center">
+            <button type="submit" class="btn btn-secondary btn-lg">Sign in</button>
         </div>
     </form>
 </div>
